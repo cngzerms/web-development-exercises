@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+#logoCity {
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+.nav-item{
+    font-size: 11px;
+    padding: 24px 20px;
+    letter-spacing: 3px;
+    transition: 0.3s;
+    opacity: 1 !important;
+}
+
+.nav-item:hover {
+    /* background-color: #263238; */
+    opacity: 0.9;
+    border-radius: 3px;
+}
+
+#about {
+    background-color: #e0f7fa;
+}
+
+.card{
+    font-style: italic;
+}
+
+.card-body {
+    height: 12rem;
+}
+
+.card-footer{
+    text-align: end;
+}
+
+
+.soft{
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/images/76.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
