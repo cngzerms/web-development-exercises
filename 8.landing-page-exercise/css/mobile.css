@@ -1,0 +1,34 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.75rem ;
+    padding-bottom: 1rem ;
+    overflow: hidden;
+    height: 100px;
+}
+
+#training .items {
+    flex-direction: column;
+}
+
+#training .items .item {
+    text-align: center;
+    width: 100%;
+}
+
+#training .items .item i {
+    display: none;
+}
+
+#projects .project {
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+#projects .projects .project {
+    margin: 0 auto;
+}
+
+#contact {
+    width: 100%;
+    margin: 0 auto;
+}
