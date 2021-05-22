@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="container mt-3">
+      <div class="card">
+        <div class="card-header">Film Project</div>
+        <div class="card-body">
+          <form name="form" id="film-form">
+            <div class="row">
+              <div class="form-group col-md-6 mb-3">
+                <input type="text" name="title" id="filmName" class="form-control" placeholder="Film İsmi">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" name="director" id="directorName" class="form-control" placeholder="Yönetmen">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" name="url" id="filmLink" class="form-control" placeholder="Film Afiş Linki">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-danger mt-3">Film Ekleyin</button>
+          </form>
+          <hr>
+        </div>
+        <div class="card-body">
+          <hr>
+          <div class="card-title" id="films-title">Filmler</div>
+          <hr>
+          <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Film Afişi</th>
+                <th scope="col">Film İsmi</th>
+                <th scope="col">Yönetmen</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody id="films">
+
+            </tbody>
+          </table>
+          <hr>
+          <a href="#" class="btn btn-dark" id="clear-films">Tüm Filmleri Temizleyin</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="storage.js"></script>
+    <script src="ui.js"></script>
+    <script src="film.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
